@@ -31,6 +31,8 @@
         NSArray *fontNames = [UIFont fontNamesForFamilyName:[fontFamilies objectAtIndex:i]];
         NSLog (@"%@: %@", fontFamily, fontNames);
     }
+    
+     NSLog(@"*****End Font Family Name **********");
 }
 
 - (void)didReceiveMemoryWarning {
